@@ -8,9 +8,12 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="mGroupProject.Amazon"/>
+     <class name="mGroupProject.Amazon"/>
       <class name="mGroupProject.Flipkart"/>
-      <class name="mGroupProject.Ajio"/>
+      <class name="mGroupProject.Ajio"/> 
+      <class name="mGroupProject.Ebay"/>
+      <class name="mGroupProject.Myntra"/>
+      <class name="mGroupProject.Meeshow"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

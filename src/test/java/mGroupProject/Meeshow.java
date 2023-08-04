@@ -13,7 +13,7 @@ public class Meeshow {
 	  WebDriver driver=new ChromeDriver();
 	  Reporter.log("Opening Meesho", true);
 	  driver.get("https://www.meesho.com/");
-	  Assert.fail();
+	
 	  Thread.sleep(7000);
 	  driver.close();
   }

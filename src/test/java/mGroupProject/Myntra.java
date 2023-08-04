@@ -13,7 +13,7 @@ public class Myntra {
 	  WebDriver driver=new ChromeDriver();
 	  Reporter.log("Opening Myntra", true);
 	  driver.get("https://www.myntra.com/");
-	  Assert.fail();
+	  
 	  Thread.sleep(7000);
 	  driver.close();
   }
