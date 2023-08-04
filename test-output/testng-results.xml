@@ -1,31 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Opening amazon]]>
     </line>
+    <line>
+      <![CDATA[Opening Flipkart]]>
+    </line>
+    <line>
+      <![CDATA[Opening Ajio]]>
+    </line>
+    <line>
+      <![CDATA[Opening Ebay]]>
+    </line>
+    <line>
+      <![CDATA[Opening Myntra]]>
+    </line>
+    <line>
+      <![CDATA[Opening Meesho]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-07-26T07:12:10 GMT-07:00" name="Default suite" finished-at="2023-07-26T07:12:31 GMT-07:00" duration-ms="20628">
+  <suite started-at="2023-08-03T23:01:33 GMT-07:00" name="Suite" finished-at="2023-08-03T23:03:24 GMT-07:00" duration-ms="111120">
     <groups>
     </groups>
-    <test started-at="2023-07-26T07:12:10 GMT-07:00" name="Default test" finished-at="2023-07-26T07:12:31 GMT-07:00" duration-ms="20628">
+    <test started-at="2023-08-03T23:01:33 GMT-07:00" name="Test" finished-at="2023-08-03T23:03:24 GMT-07:00" duration-ms="111120">
+      <class name="mGroupProject.Meeshow">
+        <test-method signature="Ec_123_Meeshowtest()[pri:0, instance:mGroupProject.Meeshow@692f203f]" started-at="2023-08-03T23:03:08 GMT-07:00" name="Ec_123_Meeshowtest" finished-at="2023-08-03T23:03:24 GMT-07:00" duration-ms="15462" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Meesho]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Ec_123_Meeshowtest -->
+      </class> <!-- mGroupProject.Meeshow -->
+      <class name="mGroupProject.Myntra">
+        <test-method signature="MyntraTest()[pri:0, instance:mGroupProject.Myntra@4c583ecf]" started-at="2023-08-03T23:02:49 GMT-07:00" name="MyntraTest" finished-at="2023-08-03T23:03:08 GMT-07:00" duration-ms="19511" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Myntra]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MyntraTest -->
+      </class> <!-- mGroupProject.Myntra -->
+      <class name="mGroupProject.Ajio">
+        <test-method signature="AjioTest()[pri:0, instance:mGroupProject.Ajio@4d5d943d]" started-at="2023-08-03T23:02:11 GMT-07:00" name="AjioTest" finished-at="2023-08-03T23:02:33 GMT-07:00" duration-ms="22315" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Ajio]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AjioTest -->
+      </class> <!-- mGroupProject.Ajio -->
+      <class name="mGroupProject.Flipkart">
+        <test-method signature="FlipkartTest()[pri:0, instance:mGroupProject.Flipkart@7c7b252e]" started-at="2023-08-03T23:01:54 GMT-07:00" name="FlipkartTest" finished-at="2023-08-03T23:02:11 GMT-07:00" duration-ms="16461" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipkartTest -->
+      </class> <!-- mGroupProject.Flipkart -->
+      <class name="mGroupProject.Ebay">
+        <test-method signature="Ebaytest()[pri:0, instance:mGroupProject.Ebay@368f2016]" started-at="2023-08-03T23:02:33 GMT-07:00" name="Ebaytest" finished-at="2023-08-03T23:02:49 GMT-07:00" duration-ms="15514" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Ebay]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Ebaytest -->
+      </class> <!-- mGroupProject.Ebay -->
       <class name="mGroupProject.Amazon">
-        <test-method is-config="true" signature="start()[pri:0, instance:mGroupProject.Amazon@3023df74]" started-at="2023-07-26T07:12:10 GMT-07:00" name="start" finished-at="2023-07-26T07:12:10 GMT-07:00" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:mGroupProject.Amazon@2a65fe7c]" started-at="2023-08-03T23:01:33 GMT-07:00" name="start" finished-at="2023-08-03T23:01:33 GMT-07:00" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AmazonTest()[pri:0, instance:mGroupProject.Amazon@3023df74]" started-at="2023-07-26T07:12:10 GMT-07:00" name="AmazonTest" finished-at="2023-07-26T07:12:31 GMT-07:00" duration-ms="20257" status="PASS">
+        <test-method signature="AmazonTest()[pri:0, instance:mGroupProject.Amazon@2a65fe7c]" started-at="2023-08-03T23:01:33 GMT-07:00" name="AmazonTest" finished-at="2023-08-03T23:01:54 GMT-07:00" duration-ms="21361" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening amazon]]>
             </line>
           </reporter-output>
         </test-method> <!-- AmazonTest -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:mGroupProject.Amazon@3023df74]" started-at="2023-07-26T07:12:31 GMT-07:00" name="stop" finished-at="2023-07-26T07:12:31 GMT-07:00" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="stop()[pri:0, instance:mGroupProject.Amazon@2a65fe7c]" started-at="2023-08-03T23:03:24 GMT-07:00" name="stop" finished-at="2023-08-03T23:03:24 GMT-07:00" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
       </class> <!-- mGroupProject.Amazon -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
